@@ -428,4 +428,9 @@ public final class StringUtils {
         }
         return buf.toString();
     }
+
+    public static void main(String[] args) {
+        String version = camelToSplitName("version", "-");
+        System.out.println(version);
+    }
 }
